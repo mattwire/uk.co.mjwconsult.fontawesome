@@ -130,7 +130,6 @@ function fontawesome_civicrm_alterSettingsFolders(&$metaDataFolders = NULL) {
  */
 function fontawesome_civicrm_coreResourceList(&$list, $region) {
   Civi::resources()
-    ->addStyleFile('uk.co.mjwconsult.fontawesome', 'css/vendors/font-awesome/css/font-awesome.min.css', 0, $region);
-  Civi::resources()
+    ->addStyleFile('uk.co.mjwconsult.fontawesome', 'css/vendors/font-awesome/css/font-awesome.min.css', 0, $region)
     ->addStyleFile('uk.co.mjwconsult.fontawesome', 'css/crm-i.css', -101, $region);
 }
